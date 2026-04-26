@@ -68,7 +68,7 @@ public class PizzaWahala{
 
     default:
 
-    numberofBoxes = Math.round(numberofGuest / 4.0);
+    numberofBoxes = Math.round((numberofGuest + 1)/ 4.0);
     
     slicePerBox = numberofBoxes * 4.0;
 
@@ -108,7 +108,7 @@ public class PizzaWahala{
 
     default:
 
-    numberofBoxes = Math.round(numberofGuest / 6.0);
+    numberofBoxes = Math.round((numberofGuest + 1)/ 6.0);
     
     slicePerBox = numberofBoxes * 6.0;
 
@@ -149,7 +149,7 @@ public class PizzaWahala{
 
     default:
 
-    numberofBoxes = Math.round(numberofGuest / 8.0);
+    numberofBoxes = Math.round((numberofGuest + 1) / 8.0);
     
     slicePerBox = numberofBoxes * 8.0;
 
@@ -190,7 +190,7 @@ public class PizzaWahala{
 
     default:
 
-    numberofBoxes = Math.round(numberofGuest / 12.0);
+    numberofBoxes = Math.round((numberofGuest + 1) / 12.0);
     
     slicePerBox = numberofBoxes * 12.0;
 
