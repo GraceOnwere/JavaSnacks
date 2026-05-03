@@ -1,0 +1,4 @@
+/* when java divides an integer with another and there is a remainder it disregards the decimal and only gives the whole number
+
+to avoid such a situation you cast one of the integers to a double or just declare both of them as a double
+*/

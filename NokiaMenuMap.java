@@ -5,9 +5,9 @@ public class NokiaMenuMap{
 
     System.out.println("Welcome to Nokia 3110!!!");
     System.out.println("\nList of Menu Functions");
-    System.out.println("1. Phonebook\n2. Messages\n3. Chat\n4. Call Register\n5. Tones\n6. Settings\n7. Call Divert\n8. Games\n9. Calculator\n10. Reminders\n11. Clock\n12. Profiles\n13. SIM Services\n14. Exit");
+    //System.out.println("1. Phonebook\n2. Messages\n3. Chat\n4. Call Register\n5. Tones\n6. Settings\n7. Call Divert\n8. Games\n9. Calculator\n10. Reminders\n11. Clock\n12. Profiles\n13. SIM Services\n14. Exit");
 
-    System.out.print("\nEnter a number from (1-13) or select 14 for Exit: ");
+   // System.out.print("\nEnter a number from (1-13) or select 14 for Exit: ");
     
     Scanner inputCollector = new Scanner(System.in);
 
@@ -15,7 +15,10 @@ public class NokiaMenuMap{
 
     while (mainMenu > 0){
 
-    
+    System.out.println("\n1. Phonebook\n2. Messages\n3. Chat\n4. Call Register\n5. Tones\n6. Settings\n7. Call Divert\n8. Games\n9. Calculator\n10. Reminders\n11. Clock\n12. Profiles\n13. SIM Services\n14. Exit");
+
+    System.out.print("\nEnter a number from (1-13) or select 14 for Exit: ");
+
     mainMenu = inputCollector.nextInt();
 
     switch (mainMenu){

@@ -1,13 +1,8 @@
-import java.util.Scanner;
 public class TaskEleven{
 
     public static void main(String[] args){
 
-    Scanner input = new Scanner(System.in);
-    
-    System.out.print("Enter a number: ");
-
-    double number = input.nextInt();
+    int number = 7;
     
     double decimal = number / 2 ;
     

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskOne {
+public class TaskTwo {
     public static void main(String[] args){
 
     int score = 1;
@@ -22,6 +22,9 @@ public class TaskOne {
         score++;
   
     }
+
+    double average =  (double)sum / score ;
         System.out.println("\nThe sum of the numbers is " + sum);
+        System.out.println("\nThe average of the numbers is " + average);
 }   
 }
