@@ -38,19 +38,14 @@ public class FireDrillThree {
     }
 
 
-    public static int arrayOf (int array []){
+    public static int [] arrayOf (int array []){
 
     
-    for (int count = 0; count < array.length;){
-
-        
-         
-        return array[count]; 
- 
+    for (int count = 2; count < array.length; count+=2){
+   
+    return System.out.print(array[count] + " ");
     }
 
-    
-    }
     return 0;
 }
 }
