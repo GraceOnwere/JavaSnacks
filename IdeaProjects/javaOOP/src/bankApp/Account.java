@@ -2,14 +2,17 @@ package bankApp;
 
 public class Account {
 
-    private String accountName;
+    private final String accountName;
     private int balance;
     private final String pin;
+    private final String number;
 
-    public Account(String pin){
+    public Account(String firstName, String lastName, String accountNumber, String pin){
+        this.accountName = firstName + " " + lastName;
+        this.number = accountNumber;
         this.pin = pin;
     }
-    public int getBalance(String pin){
+    public int checkBalance(String pin){
 
         if(!isPinValid(pin)) throw new IllegalArgumentException("Invalid Pin");
 
@@ -43,4 +46,13 @@ public class Account {
 
     }
 
+    public String getAccountNumber(){
+
+        return this.number;
+    }
+
+    public String getAccountName(){
+
+        return this.accountName;
+    }
 }
