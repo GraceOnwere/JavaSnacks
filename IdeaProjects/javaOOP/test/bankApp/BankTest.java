@@ -11,7 +11,7 @@
 //
 //        zenithBank.deposit(5000, 1);
 //
-//        zenithBank.getBalance(1,"1234");
+//        zenithBank.checkBalance(1,"1234");
 //    }
 //}
 //
