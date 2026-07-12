@@ -25,6 +25,7 @@ public class Account {
         if (amountIsPositive) {
             balance = balance + amount;
         }
+        else throw new IllegalException("Amount cannot be negative");
     }
 
     private boolean isPinValid(String pin){
@@ -42,7 +43,7 @@ public class Account {
 
         else if (!isPinValid(pin)) throw new IllegalArgumentException("Invalid Pin");
 
-        else throw new IllegalArgumentException("Invalid Amount");
+        else throw new IllegalArgumentException("Insufficient Amount");
 
     }
 

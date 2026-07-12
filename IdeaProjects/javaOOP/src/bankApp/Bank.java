@@ -73,13 +73,12 @@ public class Bank {
         receiver.deposit(amount);
     }
 
-    public void checkBalance(String accountNumber, String pin){
+    public int checkBalance(String accountNumber, String pin){
 
         Account account = findAccount(accountNumber);
         if (account == null) throw new IllegalArgumentException("Account Number not found");
 
-
-        account.checkBalance(pin);
+        return account.checkBalance(pin);
     }
 
     public void removeAccount(String accountNumber,String accountName){
@@ -99,5 +98,4 @@ public class Bank {
 
         return accounts.size();
     }
-
 }
