@@ -97,7 +97,7 @@ public class MapTest {
 //    @Test
 //    public void addKeyValuePairsToEmptyMap_removeKey_returnsValue() {
 //
-//        map.pu t("Grace","Onwere");
+//        map.put("Grace","Onwere");
 //        map.put("Yemi","Isieri");
 //        map.put("Musa","Ekiti");
 //        map.put("Babatunde","Opeyemi");
