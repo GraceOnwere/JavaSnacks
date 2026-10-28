@@ -1,4 +1,4 @@
-package test;
+package Chapter15.test;
 
 import Chapter15.AlgorithmTask;
 import org.junit.jupiter.api.Assertions;
